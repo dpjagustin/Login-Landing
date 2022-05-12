@@ -1,5 +1,17 @@
+@font-face {
+    font-family: ManOfSteel;
+    src: url(fonts/ManOfSteel.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url(fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
 body {
-    background-image: url(img/fondo);
+    background-image: url(img/fondo2);
+    background-position: 20%;
+    
 }
 
 
@@ -12,8 +24,11 @@ body {
 
 .titulo {
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     color: white;
+    font-family: Comfortaa; 
+    font-size: 70px;
+    text-shadow: 0 0 20px black
 }
 
 /* LOGIN */
@@ -24,13 +39,14 @@ body {
 }
 
 .articleBox {
-    background-color: white;
+    background-image: url(img/login-background);
     display: flex;
     justify-content: center;
     width: 400px;
     height: 500px;
-    border: 4px groove gray;
+    border: 4px  black;
     border-radius: 10px;
+    box-shadow: 0 0 20px cyan;
 }
 
 .formFlex {
@@ -60,4 +76,24 @@ body {
     font-size: large;
 }
 
+.buttonForm {
+    margin-top: 20px;
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(219, 173, 106);
+    color: white;
+    font-size: 30px;
+    font-family: Comfortaa;
+}
 
+a {
+    margin-top: 15px;
+    color: white;
+}
+
+.loginTitle {
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-family: Comfortaa;
+}
