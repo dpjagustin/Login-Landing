@@ -65,4 +65,27 @@ body {
     justify-content: center;
     margin-top: 30px;
     width: 45%;
+    background-color: transparent;
 }
+
+.buttonFlex button {
+    background-color: transparent;
+    border: 0px;
+}
+
+.buttonFlex img {
+    width: 100px;
+    height: 50px;
+    border: ;
+}
+
+
+.buttonFlex img:hover {
+    transform: skewX(8deg) skewY(-8deg);
+}
+
+.buttonFlex a:hover {
+    color: yellow;
+}
+
+/* Poner western font y acomodar inputs */
