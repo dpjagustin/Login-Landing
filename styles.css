@@ -97,3 +97,21 @@ a {
     text-shadow: 0 0 5px white;
     font-family: Comfortaa;
 }
+
+.anchorLogin2 {
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+
+}
+
+.anchorLogin2 h2 a{
+    color: bisque;
+    text-decoration-line: none;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.anchorLogin2 h2 a:hover{
+    text-shadow: 0 0 10px gold;
+}
