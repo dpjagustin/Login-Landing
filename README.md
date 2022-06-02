@@ -1,2 +1,2 @@
 # login-landing
-Longin landing with HTML &amp; CSS (no responsive)
+Login landing with HTML &amp; CSS (no responsive)
